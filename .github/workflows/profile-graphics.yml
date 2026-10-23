@@ -1,0 +1,79 @@
+name: Rebuild the profile graphics
+
+# Two pieces of this README are generated rather than written:
+#   1. the contribution snake, committed to the `output` branch
+#   2. the activity panel, committed to `main` as assets/activity.svg
+# Both are hosted in this repository on purpose. A third-party image service
+# going dark should never be able to put a broken image on the profile.
+
+on:
+  schedule:
+    # Every six hours, so nothing on the page is more than a quarter day stale.
+    - cron: "0 */6 * * *"
+  push:
+    branches:
+      - main
+    paths-ignore:
+      # The activity job commits this file. Ignoring it keeps the job from
+      # retriggering itself on its own output.
+      - "assets/activity.svg"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-graphics
+  cancel-in-progress: true
+
+jobs:
+  snake:
+    name: Draw the contribution snake
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate the snake in brand colours
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?palette=github-dark&color_snake=%2300FF9F&color_dots=%230A0A0A,%230d3b2a,%23008f5d,%2300d481,%2300FF9F
+
+      - name: Push it to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  activity:
+    name: Redraw the activity panel
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read the contribution calendar and redraw the panel
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          gh api graphql -f query="
+            { user(login: \"$OWNER\") { contributionsCollection { contributionCalendar {
+              totalContributions
+              weeks { contributionDays { date contributionCount weekday } }
+            } } } }" > calendar.json
+          python3 scripts/build_activity.py --user "$OWNER" < calendar.json > assets/activity.svg
+          rm calendar.json
+
+      - name: Commit only if the numbers actually moved
+        run: |
+          if git diff --quiet -- assets/activity.svg; then
+            echo "Activity panel unchanged. Nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity.svg
+          git commit -m "chore: redraw activity panel"
+          git push
