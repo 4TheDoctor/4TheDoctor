@@ -18,40 +18,40 @@
 <line x1="34" y1="214" x2="794" y2="214" stroke="#2D2D2D" />
 <rect class="bar" x="44.8" y="212.0" width="41.8" height="2.0" fill="#00FF9F" opacity="0.34" style="animation-delay:0.00s" />
 <text class="mono fade val" x="65.7" y="205.0" font-size="10" text-anchor="middle" style="animation-delay:0.40s" fill="#8A8A8A">0</text>
-<text class="mono lab" x="65.7" y="231.0" font-size="9" text-anchor="middle">NOV</text>
+<text class="mono lab" x="65.7" y="231.0" font-size="9" text-anchor="middle">DEC</text>
 <rect class="bar" x="108.1" y="212.0" width="41.8" height="2.0" fill="#00FF9F" opacity="0.34" style="animation-delay:0.05s" />
 <text class="mono fade val" x="129.0" y="205.0" font-size="10" text-anchor="middle" style="animation-delay:0.45s" fill="#8A8A8A">0</text>
-<text class="mono lab" x="129.0" y="231.0" font-size="9" text-anchor="middle">DEC</text>
+<text class="mono lab" x="129.0" y="231.0" font-size="9" text-anchor="middle">JAN</text>
 <rect class="bar" x="171.4" y="212.0" width="41.8" height="2.0" fill="#00FF9F" opacity="0.34" style="animation-delay:0.10s" />
 <text class="mono fade val" x="192.3" y="205.0" font-size="10" text-anchor="middle" style="animation-delay:0.50s" fill="#8A8A8A">0</text>
-<text class="mono lab" x="192.3" y="231.0" font-size="9" text-anchor="middle">JAN</text>
-<rect class="bar" x="234.8" y="212.0" width="41.8" height="2.0" fill="#00FF9F" opacity="0.34" style="animation-delay:0.15s" />
-<text class="mono fade val" x="255.7" y="205.0" font-size="10" text-anchor="middle" style="animation-delay:0.55s" fill="#8A8A8A">0</text>
-<text class="mono lab" x="255.7" y="231.0" font-size="9" text-anchor="middle">FEB</text>
-<rect class="bar" x="298.1" y="211.3" width="41.8" height="2.7" fill="#00FF9F" opacity="0.35" style="animation-delay:0.20s" />
-<text class="mono fade val" x="319.0" y="204.3" font-size="10" text-anchor="middle" style="animation-delay:0.60s" fill="#8A8A8A">2</text>
-<text class="mono lab" x="319.0" y="231.0" font-size="9" text-anchor="middle">MAR</text>
+<text class="mono lab" x="192.3" y="231.0" font-size="9" text-anchor="middle">FEB</text>
+<rect class="bar" x="234.8" y="211.3" width="41.8" height="2.7" fill="#00FF9F" opacity="0.35" style="animation-delay:0.15s" />
+<text class="mono fade val" x="255.7" y="204.3" font-size="10" text-anchor="middle" style="animation-delay:0.55s" fill="#8A8A8A">2</text>
+<text class="mono lab" x="255.7" y="231.0" font-size="9" text-anchor="middle">MAR</text>
+<rect class="bar" x="298.1" y="212.0" width="41.8" height="2.0" fill="#00FF9F" opacity="0.34" style="animation-delay:0.20s" />
+<text class="mono fade val" x="319.0" y="205.0" font-size="10" text-anchor="middle" style="animation-delay:0.60s" fill="#8A8A8A">0</text>
+<text class="mono lab" x="319.0" y="231.0" font-size="9" text-anchor="middle">APR</text>
 <rect class="bar" x="361.4" y="212.0" width="41.8" height="2.0" fill="#00FF9F" opacity="0.34" style="animation-delay:0.25s" />
 <text class="mono fade val" x="382.3" y="205.0" font-size="10" text-anchor="middle" style="animation-delay:0.65s" fill="#8A8A8A">0</text>
-<text class="mono lab" x="382.3" y="231.0" font-size="9" text-anchor="middle">APR</text>
-<rect class="bar" x="424.8" y="212.0" width="41.8" height="2.0" fill="#00FF9F" opacity="0.34" style="animation-delay:0.30s" />
-<text class="mono fade val" x="445.7" y="205.0" font-size="10" text-anchor="middle" style="animation-delay:0.70s" fill="#8A8A8A">0</text>
-<text class="mono lab" x="445.7" y="231.0" font-size="9" text-anchor="middle">MAY</text>
-<rect class="bar" x="488.1" y="194.8" width="41.8" height="19.2" fill="#00FF9F" opacity="0.43" style="animation-delay:0.35s" />
-<text class="mono fade val" x="509.0" y="187.8" font-size="10" text-anchor="middle" style="animation-delay:0.75s" fill="#8A8A8A">14</text>
-<text class="mono lab" x="509.0" y="231.0" font-size="9" text-anchor="middle">JUN</text>
-<rect class="bar" x="551.4" y="212.0" width="41.8" height="2.0" fill="#00FF9F" opacity="0.34" style="animation-delay:0.40s" />
-<text class="mono fade val" x="572.3" y="205.0" font-size="10" text-anchor="middle" style="animation-delay:0.80s" fill="#8A8A8A">0</text>
-<text class="mono lab" x="572.3" y="231.0" font-size="9" text-anchor="middle">JUL</text>
-<rect class="bar" x="614.8" y="211.3" width="41.8" height="2.7" fill="#00FF9F" opacity="0.35" style="animation-delay:0.45s" />
-<text class="mono fade val" x="635.7" y="204.3" font-size="10" text-anchor="middle" style="animation-delay:0.85s" fill="#8A8A8A">2</text>
-<text class="mono lab" x="635.7" y="231.0" font-size="9" text-anchor="middle">AUG</text>
-<rect class="bar" x="678.1" y="212.0" width="41.8" height="2.0" fill="#00FF9F" opacity="0.34" style="animation-delay:0.50s" />
-<text class="mono fade val" x="699.0" y="205.0" font-size="10" text-anchor="middle" style="animation-delay:0.90s" fill="#8A8A8A">0</text>
-<text class="mono lab" x="699.0" y="231.0" font-size="9" text-anchor="middle">SEP</text>
-<rect class="bar" x="741.4" y="92.0" width="41.8" height="122.0" fill="#FF6B00" opacity="0.95" style="animation-delay:0.55s" />
-<text class="mono fade val" x="762.3" y="85.0" font-size="10" text-anchor="middle" style="animation-delay:0.95s" fill="#FF6B00">89</text>
-<text class="mono lab" x="762.3" y="231.0" font-size="9" text-anchor="middle">OCT</text>
+<text class="mono lab" x="382.3" y="231.0" font-size="9" text-anchor="middle">MAY</text>
+<rect class="bar" x="424.8" y="194.8" width="41.8" height="19.2" fill="#00FF9F" opacity="0.43" style="animation-delay:0.30s" />
+<text class="mono fade val" x="445.7" y="187.8" font-size="10" text-anchor="middle" style="animation-delay:0.70s" fill="#8A8A8A">14</text>
+<text class="mono lab" x="445.7" y="231.0" font-size="9" text-anchor="middle">JUN</text>
+<rect class="bar" x="488.1" y="212.0" width="41.8" height="2.0" fill="#00FF9F" opacity="0.34" style="animation-delay:0.35s" />
+<text class="mono fade val" x="509.0" y="205.0" font-size="10" text-anchor="middle" style="animation-delay:0.75s" fill="#8A8A8A">0</text>
+<text class="mono lab" x="509.0" y="231.0" font-size="9" text-anchor="middle">JUL</text>
+<rect class="bar" x="551.4" y="211.3" width="41.8" height="2.7" fill="#00FF9F" opacity="0.35" style="animation-delay:0.40s" />
+<text class="mono fade val" x="572.3" y="204.3" font-size="10" text-anchor="middle" style="animation-delay:0.80s" fill="#8A8A8A">2</text>
+<text class="mono lab" x="572.3" y="231.0" font-size="9" text-anchor="middle">AUG</text>
+<rect class="bar" x="614.8" y="212.0" width="41.8" height="2.0" fill="#00FF9F" opacity="0.34" style="animation-delay:0.45s" />
+<text class="mono fade val" x="635.7" y="205.0" font-size="10" text-anchor="middle" style="animation-delay:0.85s" fill="#8A8A8A">0</text>
+<text class="mono lab" x="635.7" y="231.0" font-size="9" text-anchor="middle">SEP</text>
+<rect class="bar" x="678.1" y="92.0" width="41.8" height="122.0" fill="#FF6B00" opacity="0.95" style="animation-delay:0.50s" />
+<text class="mono fade val" x="699.0" y="85.0" font-size="10" text-anchor="middle" style="animation-delay:0.90s" fill="#FF6B00">89</text>
+<text class="mono lab" x="699.0" y="231.0" font-size="9" text-anchor="middle">OCT</text>
+<rect class="bar" x="741.4" y="212.0" width="41.8" height="2.0" fill="#00FF9F" opacity="0.34" style="animation-delay:0.55s" />
+<text class="mono fade val" x="762.3" y="205.0" font-size="10" text-anchor="middle" style="animation-delay:0.95s" fill="#8A8A8A">0</text>
+<text class="mono lab" x="762.3" y="231.0" font-size="9" text-anchor="middle">NOV</text>
 <line x1="836" y1="36" x2="836" y2="238" stroke="#2D2D2D" />
 <text class="mono h" x="870" y="44" font-size="12">BY DAY OF WEEK</text>
 <text class="mono lab" x="870" y="64" font-size="10">SAME YEAR, SUMMED</text>
@@ -77,5 +77,5 @@
 <rect class="bar" x="1133.0" y="145.7" width="23.7" height="68.3" fill="#00FF9F" opacity="0.64" style="animation-delay:0.95s" />
 <text class="mono fade val" x="1144.9" y="138.7" font-size="9" text-anchor="middle" style="animation-delay:1.35s" fill="#8A8A8A">14</text>
 <text class="mono lab" x="1144.9" y="231.0" font-size="9" text-anchor="middle">SUN</text>
-<text class="mono lab" x="34" y="274" font-size="9">SOURCE: GITHUB CONTRIBUTION CALENDAR, 2025-10-26 TO 2026-10-31 &#183; REBUILT EVERY SIX HOURS &#183; ORANGE MARKS THE PEAK</text>
+<text class="mono lab" x="34" y="274" font-size="9">SOURCE: GITHUB CONTRIBUTION CALENDAR, 2025-11-02 TO 2026-11-01 &#183; REBUILT EVERY SIX HOURS &#183; ORANGE MARKS THE PEAK</text>
 </svg>
